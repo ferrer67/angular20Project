@@ -1,0 +1,10 @@
+<p>{{courseName}}</p>
+
+<p class="{{classColor}}">{{productPrice}}</p>
+
+<input type="text" [placeholder]="courseName" />
+
+<button (click)="getCourseName()"> Show message</button>
+<button (click)="changeCourseName()"> change message</button>
+
+<input type="text" [(ngModel)]="courseName" />
